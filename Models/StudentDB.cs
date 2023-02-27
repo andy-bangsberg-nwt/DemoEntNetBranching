@@ -5,12 +5,17 @@
         static List<Student> listStudent = new List<Student>()
         {
             new Student("Andy", "Bangsberg"),
+<<<<<<< HEAD
+            new Student("Rene", "Bylander")
+=======
             new Student("Rene", "Bylander"),
             new Student("Kyle", "Madlon"),
             new Student("Squirt", "Whispurr"),
             new Student("Ollie", "TheCat"),
+            new Student("Kirk", "Herbison"),
             new Student("Evan", "Friberg"),
             new Student("Tetyana", "Oldham")
+>>>>>>> origin/master
 
         };
 
