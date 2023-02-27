@@ -11,13 +11,7 @@
         {
             get
             {
-                string path = "";
-
-                path =   LastName + ".png";
-
-                return path;
-
-                // Note, could be writen as:     return  LastName + ".png";
+               return  LastName + ".png";
             }
 
         }
