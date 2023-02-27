@@ -6,7 +6,10 @@
         {
             new Student("Andy", "Bangsberg"),
             new Student("Rene", "Bylander"),
-            new Student("Kyle", "Madlon")
+            new Student("Kyle", "Madlon"),
+            new Student("Rene", "Bylander"),
+            new Student("Squirt", "Whispurr"),
+            new Student("Ollie", "TheCat")
         };
 
         public static List<Student> GetStudents()
