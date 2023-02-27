@@ -6,6 +6,7 @@
         {
             new Student("Andy", "Bangsberg"),
             new Student("Rene", "Bylander"),
+            new Student("Kyle", "Madlon"),
             new Student("Squirt", "Whispurr"),
             new Student("Ollie", "TheCat"),
             new Student("Evan", "Friberg"),
