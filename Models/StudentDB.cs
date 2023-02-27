@@ -8,7 +8,8 @@
             new Student("Rene", "Bylander"),
             new Student("Squirt", "Whispurr"),
             new Student("Ollie", "TheCat"),
-            new Student("Evan", "Friberg")
+            new Student("Evan", "Friberg"),
+            new Student("Tetyana", "Oldham")
 
         };
 
