@@ -1,0 +1,31 @@
+﻿@model Student
+
+@{
+    ViewData["Title"] = "View";
+}
+
+<h1>The Student View</h1>
+
+<div class="table-responsive">
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Image Path</th>
+             
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Model.ID</td>
+                <td>@Model.FirstName</td>
+                <td>@Model.LastName</td>
+                <td>@Model.ImagePath</td>
+                
+            </tr>
+        </tbody>
+    </table>
+    <p><img src="~/images/@Model.ImagePath" alt="@Model.ImagePath" /></p>
+</div>

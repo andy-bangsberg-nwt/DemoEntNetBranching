@@ -1,0 +1,36 @@
+﻿@model List<Student>
+@{
+    ViewData["Title"] = "View";
+  
+}
+
+<h1>List of Students</h1>
+
+<h3>List of all avilable cars</h3>
+<div class="table-responsive">
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>LastName</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var student in @Model)
+            {
+                <tr>
+                    <td>@student.ID</td>
+                    <td>@student.LastName</td>
+                
+                    <td>
+                        <form asp-controller="User" method="post">
+                            <input type="submit" asp-controller="Student"  asp-action="Detail" asp-route-id="@student.LastName" value="Details" class="btn btn-outline-secondary" />
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
