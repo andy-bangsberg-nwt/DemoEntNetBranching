@@ -5,7 +5,11 @@
         static List<Student> listStudent = new List<Student>()
         {
             new Student("Andy", "Bangsberg"),
-            new Student("Rene", "Bylander")
+            new Student("Rene", "Bylander"),
+            new Student("Kyle", "Madlon"),
+            new Student("Squirt", "Whispurr"),
+            new Student("Ollie", "TheCat"),
+            new Student("Tetyana", "Oldham")
 
         };
 
