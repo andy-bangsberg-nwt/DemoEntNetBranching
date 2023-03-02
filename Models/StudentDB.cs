@@ -13,7 +13,7 @@
             new Student("Evan", "Friberg"),
             new Student("Tetyana", "Oldham"),
             new Student("Dylan", "Larkin"),
-            new Student("Toni", "Paffel")
+            new Student("Toni", "Paffel"),
             new Student("Dylan", "Larkin")
         };
 
