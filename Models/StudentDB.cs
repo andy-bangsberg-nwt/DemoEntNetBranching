@@ -5,10 +5,6 @@
         static List<Student> listStudent = new List<Student>()
         {
             new Student("Andy", "Bangsberg"),
-
-            new Student("Rene", "Bylander"),
-
-
             new Student("Rene", "Bylander"),
             new Student("Kyle", "Madlon"),
             new Student("Squirt", "Whispurr"),
@@ -18,9 +14,7 @@
             new Student("Tetyana", "Oldham"),
             new Student("Dylan", "Larkin"),
             new Student("Toni", "Paffel")
-
-
-
+            new Student("Dylan", "Larkin")
         };
 
         public static List<Student> GetStudents()
