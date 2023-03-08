@@ -16,6 +16,8 @@
             new Student("Toni", "Paffel"),
             new Student("Dylan", "Larkin"),
             new Student("Lionel", "Klein"),
+            new Student("Jonathan", "Stumpf"),
+            new Student("Luke", "Bangsberg"),
             new Student("Joe", "Butt"),
             new Student("Jonathan", "Stumpf"),
             new Student("Jabin", "Jabin")
