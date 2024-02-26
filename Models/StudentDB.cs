@@ -7,9 +7,11 @@
             new Student("Andy", "Bangsberg"),
             new Student("Rene", "Bylander"),
             new Student("Squirt", "Whispurr"),
-			new Student("Ollie", "TheCat"),
+      			new Student("Ollie", "TheCat"),
             new Student("Chelcie", "Feiten")
-        };
+            new Student("Ollie", "TheCat"),
+            new Student("Bart", "Lund")
+          };
 
         public static List<Student> GetStudents()
         {
