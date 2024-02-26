@@ -12,7 +12,8 @@
       		new Student("Ollie", "TheCat"),
             new Student("Chelcie", "Feiten"),
             new Student("Ollie", "TheCat"),
-            new Student("Bart", "Lund")
+            new Student("Bart", "Lund"),
+            new Student("Cal", "Crowder")
           };
 
         public static List<Student> GetStudents()
