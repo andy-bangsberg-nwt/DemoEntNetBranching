@@ -6,21 +6,9 @@
         {
             new Student("Andy", "Bangsberg"),
             new Student("Rene", "Bylander"),
-            new Student("Kyle", "Madlon"),
             new Student("Squirt", "Whispurr"),
-            new Student("Ollie", "TheCat"),
-            new Student("Kirk", "Herbison"),
-            new Student("Evan", "Friberg"),
-            new Student("Tetyana", "Oldham"),
-            new Student("Dylan", "Larkin"),
-            new Student("Toni", "Paffel"),
-            new Student("Dylan", "Larkin"),
-            new Student("Lionel", "Klein"),
-            new Student("Jonathan", "Stumpf"),
-            new Student("Luke", "Bangsberg"),
-            new Student("Joe", "Butt"),
-            new Student("Jonathan", "Stumpf"),
-            new Student("Jabin", "Jabin")
+            new Student("Ollie", "TheCat")
+            
         };
 
         public static List<Student> GetStudents()
