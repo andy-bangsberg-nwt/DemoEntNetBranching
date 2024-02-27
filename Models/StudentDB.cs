@@ -12,6 +12,7 @@
             new Student("Kyara", "Miller"),
       		new Student("Ollie", "TheCat"),
             new Student("Chelcie", "Feiten"),
+            new Student("Draden", "Jensen"),
             new Student("Ollie", "TheCat"),
             new Student("Bart", "Lund"),
             new Student("Cal", "Crowder"),
