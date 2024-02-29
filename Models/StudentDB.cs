@@ -4,6 +4,7 @@
     {
         static List<Student> listStudent = new List<Student>()
         {
+            new Student("Joe", "Kopacz"),
             new Student("Andy", "Bangsberg"),
             new Student("Rene", "Bylander"),
             new Student("Squirt", "Whispurr"),
