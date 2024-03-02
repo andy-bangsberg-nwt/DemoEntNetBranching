@@ -19,7 +19,8 @@
             new Student("Cal", "Crowder"),
             new Student("John", "Hirsch"),
             new Student("Jayden", "Visocky"),
-            new Student("Alyssa", "Sherman")
+            new Student("Alyssa", "Sherman"),
+            new Student("Christian", "Eikam")
           };
 
         public static List<Student> GetStudents()
