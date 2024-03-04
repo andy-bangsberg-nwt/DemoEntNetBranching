@@ -1,6 +1,6 @@
 ﻿@model List<Student>
 @{
-    ViewData["Title"] = "View";
+    ViewData["Title"] = "Index";
   
 }
 
@@ -13,6 +13,8 @@
             <tr>
                 <th>ID</th>
                 <th>LastName</th>
+                <th>Image</th>
+                <th>View</th>
             </tr>
         </thead>
         <tbody>
@@ -21,7 +23,7 @@
                 <tr>
                     <td>@student.ID</td>
                     <td>@student.LastName</td>
-                
+                    <td><img src="~/images/@student.ImagePath" width="400px;" /> </td>
                     <td>
                         <form asp-controller="User" method="post">
                             <input type="submit" asp-controller="Student"  asp-action="Detail" asp-route-id="@student.LastName" value="Details" class="btn btn-outline-secondary" />
