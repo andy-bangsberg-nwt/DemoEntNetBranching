@@ -27,6 +27,7 @@
             new Student("Alyssa", "Sherman"),
             new Student("Christian", "Eikam"),
             new Student("Robbie", "Lorenz")
+            
           };
 
         public static List<Student> GetStudents()
