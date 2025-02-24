@@ -21,7 +21,8 @@
             new Student("Jayden", "Visocky"),
             new Student("Alyssa", "Sherman"),
             new Student("Christian", "Eikam"),
-            new Student("Robbie", "Lorenz")
+            new Student("Robbie", "Lorenz"),
+            new Student("Chris", "Bjerklien"),
           };
 
         public static List<Student> GetStudents()
