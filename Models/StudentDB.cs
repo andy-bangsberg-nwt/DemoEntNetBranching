@@ -21,6 +21,7 @@
             new Student("Jayden", "Visocky"),
             new Student("Alyssa", "Sherman"),
             new Student("Christian", "Eikam"),
+            new Student("Steve", "Nunley"),
             new Student("Robbie", "Lorenz")
           };
 
